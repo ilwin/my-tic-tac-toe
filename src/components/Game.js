@@ -92,7 +92,7 @@ const Game = () => {
   if (!history.length) {
     return <div>Loading</div>;
   }
-  console.log(JSON.stringify(history), moveNumber);
+
   return (
     <div className="game">
       <div className="header">
